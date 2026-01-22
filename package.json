@@ -1,0 +1,20 @@
+{
+  "name": "trends-scraper-service",
+  "version": "1.0.0",
+  "description": "Crawlee-based Google Trends scraper microservice",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "crawlee": "^3.7.0",
+    "playwright": "^1.40.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
